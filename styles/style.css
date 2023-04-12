@@ -1,5 +1,5 @@
 @import url("./variables.css");
-@import url("./library.css");
+@import url("./extra-classes.css");
 
 * {
     padding: 0;
@@ -20,11 +20,19 @@ li {
     width: 1512px;
     padding: 0px calc(var(--padding-l) + 1px);
     font-family: var(--primary-font);
+    background: var(--fourth-color);
+    overflow-x: hidden;
 }
 
 .logo {
     width: 94px;
     height: 54px;
+}
+
+.icon {
+    width: 48px;
+    height: 48px;
+    margin-right: calc(var(--margin-m) - 5px);
 }
 
 .header {
@@ -87,7 +95,11 @@ li {
     font-family: var(--third-font);
 }
 
-.about-us__description {
+.benefits {
+    margin-top: var(--padding-xl);
+}
+
+.paragraph {
     margin-top: var(--margin-m);
     color: var(--secondary-color);
     line-height: 27px;
@@ -95,4 +107,67 @@ li {
 
 .about-us__info > .button-wrapper {
     margin-top: calc(var(--margin-l) + var(--margin-m));
+}
+
+.info-title {
+    justify-content: start;
+}
+
+.benefit__paragraph {
+    margin-top:var(--margin-s);
+}
+
+.banner-img {
+    position: relative;
+    width: 1512px;
+    left: -38px;
+}
+
+.image {
+    height: 440px;
+    width: 440px;
+}
+
+.catalog__title {
+    margin-top: var(--margin-m);
+}
+
+.comment {
+    position: relative;
+    padding: var(--padding-s);
+    margin-top: var(--margin-xl);
+}
+
+.comment:first-child ,.comment:nth-child(2) {
+    background: #DFDFDF;
+}
+
+.comment:first-child  {
+    top: 40px;
+}
+
+.comment:nth-child(3) {
+    border: 1px solid var(--secondary-color);
+    top: -55px;
+    left: 250px;
+    background: var(--fourth-color);
+}
+
+.comment-person {
+    justify-content: start;
+
+}
+
+.comment-image {
+    width: 50px;
+    height: 50px;
+    margin-right: var(--margin-s);
+}
+
+.comment__paragraph {
+    margin-top: var(--margin-s);
+}
+
+.name {
+    color: var(--secondary-color);
 }
