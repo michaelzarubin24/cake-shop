@@ -286,9 +286,224 @@
           </div>
         </div>
       </section>
-      <section class="bestsellers article"></section>
-      <section class="individual-order article"></section>
-      <section class="info article"></section>
+
+      <section class="bestsellers article">
+        <div class="title upper">Bestsellers</div>
+
+        <div class="bestsellers-wrapper article flex-between">
+          <div class="bestsellers-item">
+            <div class="image-wrapper">
+              <img
+                src="./public/images/bestsellers/bestseller-1.png"
+                alt=""
+                class="image"
+              />
+            </div>
+
+            <div class="bestsellers__row flex-between">
+              <div class="title bestsellers__title simple-txt-m upper">
+                Chocolate bisquite
+              </div>
+              <div class="bestsellers-item__order flex-between">
+                <div class="title bestsellers-item__price simple-txt-m upper">
+                  123 $
+                </div>
+                <div class="bestsellers-item__icon">
+                  <img
+                    src="./public/icons/plus.png"
+                    alt="#"
+                    class="bestsellers__icon"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="bestsellers-item">
+            <div class="image-wrapper">
+              <img
+                src="./public/images/bestsellers/bestseller-2.png"
+                alt=""
+                class="image"
+              />
+            </div>
+            <div class="bestsellers__row flex-between">
+              <div class="title bestsellers__title simple-txt-m upper">
+                Yogurt cheesecake
+              </div>
+              <div class="bestsellers-item__order flex-between">
+                <div class="title bestsellers-item__price simple-txt-m upper">
+                  123 $
+                </div>
+                <div class="bestsellers-item__icon">
+                  <img
+                    src="./public/icons/plus.png"
+                    alt="#"
+                    class="bestsellers__icon"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="bestsellers-item">
+            <div class="image-wrapper">
+              <img
+                src="./public/images/bestsellers/bestseller-3.png"
+                alt=""
+                class="image"
+              />
+            </div>
+            <div class="bestsellers__row flex-between">
+              <div class="title bestsellers__title simple-txt-m upper">
+                Milk cream cupcake
+              </div>
+              <div class="bestsellers-item__order flex-between">
+                <div class="title bestsellers-item__price simple-txt-m upper">
+                  123 $
+                </div>
+                <div class="bestsellers-item__icon">
+                  <img
+                    src="./public/icons/plus.png"
+                    alt="#"
+                    class="bestsellers__icon"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="bestsellers__swipe flex-center">
+          <div class="swipe-grey"></div>
+          <div class="swipe-white"></div>
+        </div>
+        <div class="button-wrapper flex-center">
+          <button class="button">
+            <div class="button-text simple-txt-s grey-txt">Catalog</div>
+          </button>
+        </div>
+      </section>
+
+      <section class="individual-order article">
+        <div class="individual-order__info">
+          <div class="individual-order__title alt-title upper">
+            individual order
+          </div>
+          <form class="individual-order__form simple-txt-s grey-txt">
+            <label for="fname">Your name</label>
+            <input type="text" id="fname" name="fname" />
+            <label for="lname">Phone number</label>
+            <input type="text" id="pnumber" name="pnumber" />
+            <label for="lname">Email</label>
+            <input type="text" id="email" name="email" />
+            <label for="lname">Leave your comment</label>
+            <input type="text" id="comment" name="comment" />
+          </form>
+          <div class="attachment">
+            <div class="attachment-wrapper">
+              <img
+                src="./public/icons/attachment.png"
+                alt="+"
+                class="attachment-icon"
+              />
+              <div class="attachment-text simple-txt-xs">Or attach a photo</div>
+            </div>
+            <div class="id-button-wrapper">
+              <button class="button">
+                <div class="id-button-text simple-txt-s">
+                  Send an application
+                </div>
+              </button>
+            </div>
+            <p class="id-description simple-txt-s grey-txt">
+              Our manager will contact you within 15 minutes to clarify the
+              order
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="info article">
+        <div class="info-section flex-between">
+          <div class="info-logo">
+            <div class="logo-wrapper">
+              <img
+                class="logo"
+                src="./public/icons/logo.png"
+                alt="try again later!"
+              />
+            </div>
+            <div class="socials-wrapper flex-between">
+              <img
+                src="./public/icons/social-media-instagram.png"
+                alt="+"
+                class="socials-logo"
+              />
+              <img
+                src="./public/icons/social-media-telegram.png"
+                alt="+"
+                class="socials-logo"
+              />
+              <img
+                src="./public/icons/social-media-twitter.png"
+                alt="+"
+                class="socials-logo"
+              />
+            </div>
+          </div>
+          <div class="information flex-column">
+            <div class="information-title simple-txt-m">Information</div>
+            <div
+              class="information-link__wrapper flex-column simple-txt-s grey-txt"
+            >
+              <a href="#" class="information-link">About us</a>
+              <a href="#" class="information-link">Catalog</a>
+              <a href="#" class="information-link">Delivery</a>
+              <a href="#" class="information-link">Contact us</a>
+            </div>
+          </div>
+          <div class="address flex-column">
+            <div class="address-title simple-txt-m">Address</div>
+            <div class="address__wrapper flex-column simple-txt-s grey-txt">
+              <p class="address-text">Ukraine, Dnipro</p>
+              <p class="address-text">887-549-00-15</p>
+              <p class="address-text">887-549-00-14</p>
+            </div>
+          </div>
+          <div class="contacts flex-column">
+            <div class="contacts-title simple-txt-m">Get in touch</div>
+            <div class="contacts__wrapper simple-txt-s grey-txt flex-column">
+              <p class="contacts-text">
+                Subscribe to our newsletter and stay up to date with all the
+                news
+              </p>
+              <div class="contacts-form__wrapper">
+                <form class="contacts__form simple-txt-s grey-txt">
+                  <label for="enter">Enter your e-mail</label>
+                  <input type="text" id="enter" name="enter" />
+                </form>
+                <div class="side-panel__wrapper">
+                  <img
+                    src="./public/icons/side-panel.png"
+                    alt="+"
+                    class="side-panel__icon"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="info-link">
+          <div class="info-link__wrapper simple-txt-s flex-between">
+            <a href="#" class="links">Privacy Policy</a>
+            <a href="#" class="links">Company Data</a>
+            <a href="#" class="links">All Cookies</a>
+            <a href="#" class="links">Rules</a>
+          </div>
+        </div>
+        <div class="rights grey-txt simple-txt-s">
+          © 2022 All rights reserved.
+        </div>
+      </section>
     </div>
   </body>
 </html>

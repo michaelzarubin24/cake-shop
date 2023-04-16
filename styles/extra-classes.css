@@ -1,64 +1,87 @@
 .title {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: var(--fs-l);
-    font-family: var(--third-font);
-    color: var(--primary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: var(--fs-l);
+  font-family: var(--third-font);
+  color: var(--primary-color);
+}
+
+.alt-title {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  font-size: var(--fs-l);
+  font-family: var(--third-font);
+  color: var(--primary-color);
 }
 
 .flex-center {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.flex-start {
+  display: flex;
+  justify-content: start;
+}
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
+.flex-upper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
 .flex-between {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .grey-txt {
-    color: var(--secondary-color);
+  color: var(--secondary-color);
 }
 
 .simple-txt-xl {
-    line-height: 87.17px;
-    font-size: var(--fs-xl);
+  line-height: 87.17px;
+  font-size: var(--fs-xl);
 }
 
 .simple-txt-l {
-    font-size: var(--fs-l);
+  font-size: var(--fs-l);
 }
 
 .simple-txt-m {
-    font-size: var(--fs-m);
+  font-size: var(--fs-m);
 }
 
 .simple-txt-s {
-    font-size: var(--fs-s);
+  font-size: var(--fs-s);
 }
 
 .simple-txt-xs {
-    font-size: var(--fs-xs);
+  font-size: var(--fs-xs);
 }
 
 .upper {
-    text-transform: uppercase;
+  text-transform: uppercase;
 }
 
 .article {
-    margin-top: calc(var(--margin-xxxl) / 2);
+  margin-top: calc(var(--margin-xxxl) / 2);
 }
 
 .align-self-center {
-    align-self: center;
+  align-self: center;
 }
 
 .d-grid {
-    display: grid;
-    grid-template-columns: repeat(2, 474px);
-    justify-content: center;
-    gap: 20px;
+  display: grid;
+  grid-template-columns: repeat(2, 474px);
+  justify-content: center;
+  gap: 20px;
 }
